@@ -12,8 +12,8 @@ def loop_iterator(number_of_times)
   counter = 1
  
   loop do 
-    puts "The counter is at: #{counter}"
-    break if counter == 3
+    puts "#{phrase}"
+    break if counter == number_of_times
     counter = counter + 1
   end
 end
