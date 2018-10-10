@@ -32,11 +32,10 @@ def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 1
  
-while counter <= 5
-  puts "The counter is at: #{counter}"
-  break if counter == 3
-  counter = counter + 1
-end
+  while counter <= number_of_times
+    puts "#{phrase}"
+    counter = counter + 1
+  end
 end
 
 def until_iterator(number_of_times)
